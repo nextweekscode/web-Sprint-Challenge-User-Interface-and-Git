@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -66,17 +66,18 @@ p {
     line-height: 1.4;
 }
 
-.headercontainer{
-    display:flex;
-    justify-content:space-around;
-    }
 .logo {
-    margin-right:25%;
+    width:50%;
+    margin-left:25%;
+    display:flex;
+    justify-content:space-between;
 }
-
+.logo a{
+    margin-top:3%;
+}
 .highwayimage {
-    margin-left:24%;
-    margin-top:5%;
+    margin-left:23.5%;
+    margin-top:2%;
 }
 
 .container {

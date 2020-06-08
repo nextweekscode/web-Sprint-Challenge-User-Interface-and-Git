@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    border: 1px solid red;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -105,44 +105,37 @@ p {
 .middle-bigcontainer {
     display:flex;
     flex-wrap:wrap;
+
     
 }
 .middle-bigcontainer a{
     border: 2px solid black;
-    border-radius:10%;
-    padding:1%;
-    margin-top:1%;
+    border-radius:15%;
+    text-decoration:none;
+    margin-top:3%;
 }
 
 .middle-con1 {
     display:flex;
-    margin-left:25%;
-    width:25%;
+    justify-content:space-between;
+    margin-left:23%;
+    width:23%;
     border-bottom: 2px dashed black;
     margin-bottom:3%;
+    margin-right:3%;
+    padding:2%;
 }
 
 .middle-con2{
-    width:25%;
+    display:flex;
+    justify-content:space-between;
+    margin-left:23%;
+    width:23%;
     border-bottom: 2px dashed black;
     margin-bottom:3%;
-    
+    margin-right:3%;
+    padding:2%;
 }
-
-/* .middlebig2 {
-   display:flex;
-   flex-wrap:wrap;
-
-} */
-
-.middlebig2 a{
-    border: 2px solid black;
-    border-radius:10%;
-    padding:1%;
-    margin-top:1%;
-}
-
-
 
 .bottom {
     display:flex;
