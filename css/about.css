@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    border: 1px solid red;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -66,50 +67,102 @@ p {
     line-height: 1.4;
 }
 
-.headercontainer{
+
+.top {
+    width:50%;
+    margin-left:25%;
+    margin-bottom:3%;
+  
+  
+}
+
+.logolinks{
     display:flex;
-    justify-content:space-around;
-    
+   justify-content:space-between;
+   
+}
 
-
+.logolinks a{
+   margin-top:3%;
 }
 
 
 .cityimage {
     margin-left:25%
+
 }
 
 .about-page {
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     
+}
+.about {
+    width:50%;
+    border-bottom: 1px dashed black;
+    margin-bottom:2%;
+}
+.middle-bigcontainer {
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.middle-bigcontainer a{
+    border: 2px solid black;
+    border-radius:10%;
+    padding:1%;
+    margin-top:1%;
+}
+
+.middle-con1 {
+    margin-left:25%;
+    margin-right:3%;
+    width:25%;
+    border-bottom: 2px dashed black;
+    margin-bottom:3%;
+}
+
+.middle-con2{
+    display:flex;
+    width:25%;
+    
+    border-bottom: 2px dashed black;
+    margin-bottom:3%;
+    
+}
+
+.middlebig2 {
+   display:flex;
+   flex-wrap:wrap;
 
 }
-.about-page div{
-    justify-content:space-between;
+
+
+
+.bottom {
+    display:flex;
+    flex-direction:space-around;
 }
-
-
-
-.strat .howwork{
- display:flex;
- flex-wrap:nowarp;
-justify-content:left;
-
-
+.worktogether {
+    width:50%;
+    margin-left:25%;
+}
 
 footer {
-    width: 100%;
+    margin-left:25%;
+    width: 50%;
     background: black;
+    display:flex;
 }
 
 footer nav {
-    width: 60%;
+    width: 64%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    
 }
 
 footer nav a {

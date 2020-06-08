@@ -69,9 +69,9 @@ p {
 .headercontainer{
     display:flex;
     justify-content:space-around;
-    
-
-
+    }
+.logo {
+    margin-right:25%;
 }
 
 .highwayimage {
