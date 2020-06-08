@@ -115,26 +115,31 @@ p {
 }
 
 .middle-con1 {
+    display:flex;
     margin-left:25%;
-    margin-right:3%;
     width:25%;
     border-bottom: 2px dashed black;
     margin-bottom:3%;
 }
 
 .middle-con2{
-    display:flex;
     width:25%;
-    
     border-bottom: 2px dashed black;
     margin-bottom:3%;
     
 }
 
-.middlebig2 {
+/* .middlebig2 {
    display:flex;
    flex-wrap:wrap;
 
+} */
+
+.middlebig2 a{
+    border: 2px solid black;
+    border-radius:10%;
+    padding:1%;
+    margin-top:1%;
 }
 
 
