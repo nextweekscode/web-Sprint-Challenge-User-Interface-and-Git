@@ -74,7 +74,13 @@ p {
 }
 .logo a{
     margin-top:3%;
+    text-decoration:none;
 }
+.logo a:hover {
+    color:white;
+    background-color:black;
+}
+
 .highwayimage {
     margin-left:23.5%;
     margin-top:2%;
@@ -189,4 +195,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover{
+    color:black;
+    background-color:white;
 }
